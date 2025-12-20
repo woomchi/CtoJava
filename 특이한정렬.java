@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.util.Comparator;
+//import java.util.Comparator;
 public class 특이한정렬 {
     public int[] solution(int[] numlist, int n) {
         int [] distances = new int[numlist.length];
