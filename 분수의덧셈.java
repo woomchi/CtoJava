@@ -1,7 +1,7 @@
 class Solution {
     //나의 풀이 방식
     public int[] solution(int numer1, int denom1, int numer2, int denom2) {
-        int [] fracs = {numer1, denom1, numer2, denom2};
+        //int [] fracs = {numer1, denom1, numer2, denom2}; 불필요한 부분 삭제
         int numerSum = numer1 * denom2 + numer2 * denom1;
         int denomSum = denom1 * denom2;
         int [] fraction = {numerSum, denomSum};
