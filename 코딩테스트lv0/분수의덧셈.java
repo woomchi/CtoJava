@@ -1,3 +1,4 @@
+package 코딩테스트lv0;
 class Solution {
     //나의 풀이 방식
     public int[] solution(int numer1, int denom1, int numer2, int denom2) {

@@ -1,3 +1,4 @@
+package 코딩테스트lv0;
 public class 옹알이1 {
     // 나의 문제 풀이
     public int solution(String[] babbling) {

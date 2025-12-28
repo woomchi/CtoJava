@@ -1,3 +1,4 @@
+package 코딩테스트lv0;
 import java.util.*;
 
 class 주사위3 {

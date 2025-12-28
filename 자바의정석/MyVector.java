@@ -1,0 +1,74 @@
+package 자바의정석;
+import java.util.*;
+
+public class MyVector implements List{
+    Object [] data = null;
+    int capacity = 0;
+    int size = 0;
+
+    // 생성자
+    public MyVector(int capacity){  // capacity가 0이 아닐때 값만큼 용량을 할당함
+        if(capacity < 0){
+            throw new IllegalArgumentException("유효하지 않은 값입니다. :"+ capacity);
+        }
+
+        this.capacity = capacity;
+        data = new Object[capacity];
+    }
+
+    public MyVector(){  // 크기를 입력받지 않았을 때
+        this(10);
+    }
+    
+    // Vector을 내가 직접 구현하기
+    public boolean contains(Object o) {
+        return false;
+    }
+
+    public boolean equals(Object o){
+        return false;
+    }
+
+    public Object set(int index, Object element){
+        return null;
+    }
+    
+    public void add(int index, Object element){
+        
+    }
+        
+    public Object remove(int index) {
+        return null;
+    }
+
+
+
+
+    // 필드 반환 메서드
+    public boolean isEmpty() { return size == 0; }
+    public int capacity() { return capacity; }
+    public int size() { return size; }
+    
+    // List 인터페이스로부터 상속받은 메서드들 => 잘 작동되기 위해 기능 생략
+    public void clear() {}
+    public int indexOf(Object o) { return -1; }
+    public int lastIndexOf(Object o) { return -1; }
+    public Iterator iterator() { return null; }
+    public List subList(int fromIndex, int toIndex) { return null; }
+    public ListIterator listIterator() { return null; }
+    public ListIterator listIterator(int index) { return null; }
+    public Object get(int index) { return null; }
+    public Object[] toArray() { return null; }
+    public Object[] toArray(Object[] a) { return null; }
+    public boolean add(Object e) { return false;}
+    public boolean addAll(Collection c) { return false; }
+    public boolean addAll(int index, Collection c){ return false; }
+    public boolean remove(Object o) { return false; }
+    public boolean removeAll(Collection c) { return false; }
+    public boolean retainAll(Collection c) { return false; }
+    public boolean containsAll(Collection c) { return false; }
+    
+    //default void sort(Comparator c) {}
+    //default Spliterator spliterator() {}
+    //default void replaceAll(UnaryOperator operator) {}
+}
