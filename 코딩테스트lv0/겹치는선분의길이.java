@@ -1,3 +1,4 @@
+package 코딩테스트lv0;
 public class 겹치는선분의길이 {
     public int solution(int[][] lines) {
         int start = getMaxStart(lines);
