@@ -22,27 +22,62 @@ public class MyVector implements List{
     
     // Vector을 내가 직접 구현하기
     public boolean contains(Object o) {
+        // 지정된 객체가 있는지 확인 => null인 경우를 고려해 수정됨
+        for (int i = 0; i < size; i++) {
+            if (o != null ? o.equals(data[i]) : data[i] == null) {
+                return true;
+            }
+        }
         return false;
     }
 
     public boolean equals(Object o){
-        return false;
+        // 두 객체의 참조가 같은지 확인
+        int index = 0;
+        while(index<size){
+            if(o.equals(data[index])){
+                index++;
+            }else{
+                return false;
+            }
+        }
+        return true;
     }
 
     public Object set(int index, Object element){
-        return null;
+        if(index >= size || index < 0){
+            throw new IndexOutOfBoundsException("범위를 벗어났습니다.");
+        }
+        data[index] = element;
+        return element;
     }
     
     public void add(int index, Object element){
-        
+        if(index >= size || index < 0){
+            throw new IndexOutOfBoundsException("범위를 벗어났습니다.");
+        }
+        for(int i= size-1;i>=index;i--){
+            data[i+1] = data[i];
+        }
+        data[index] = element;
+        size++;
     }
         
+    // 1 2 3 4 5
     public Object remove(int index) {
-        return null;
+        if(index >= size || index < 0){
+            throw new IndexOutOfBoundsException("범위를 벗어났습니다.");
+        }
+        Object o = data[index];
+        for(int i=index;i<size-1;i++){
+            data[i] = data[i+1];
+        }
+        data[size-1] = null;
+        size--;
+        return o;
     }
 
-
-
+/* ---------------------------------------------------------------- */
 
     // 필드 반환 메서드
     public boolean isEmpty() { return size == 0; }
