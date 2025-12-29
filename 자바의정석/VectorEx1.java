@@ -11,7 +11,8 @@ public class VectorEx1 {
         v.add("3");
         print(v);
 
-        // 빈 공간을 없애서 capacity와 size를 같게 만드는데 배열은 크기를 생성한 뒤에 변경할 수 없어서 새로운 배열을 생성해 주소값을 v로 할당함
+        // 빈 공간을 없애서 capacity와 size를 같게 만드는데
+        // 배열은 크기를 생성한 뒤에 변경할 수 없어서 새로운 배열을 생성해 주소값을 v로 할당함
         v.trimToSize(); // 용량과 크기를 같게만들어 빈공간을 없앰
         System.out.println("=== After trimToSize() ===");
         print(v);
@@ -22,8 +23,8 @@ public class VectorEx1 {
         System.out.println("=== After ensureCapacity(6) ===");
         print(v);
 
-        // v의 크기를 7로 설정했는데 capacity가 6으로 부족하다. 이때 vector에서는 capacity가 부족하면 2배 크기로 증가된다.
-        // vector를 사용해 인스턴스를 생성한 경우에는 지정해준 capacityIncrement만큼 증가하게 된다.
+        // v의 크기를 7로 설정했는데 capacity가 6으로 부족하다.
+        // vector를 사용해 인스턴스를 생성한 경우에는 부족한 공간을 할당할 때 지정해준 capacityIncrement만큼 증가하게 된다.
         v.setSize(7);
         System.out.println("=== After setSize(7) ===");
         print(v);
