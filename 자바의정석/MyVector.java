@@ -51,6 +51,21 @@ public class MyVector implements List{
         data[index] = element;
         return element;
     }
+
+    private void ensureCapacaity(int minCapacity) {
+        if(minCapacity - data.length > 0){
+            setCapacity(minCapacity);
+        }
+
+    }
+
+    
+    public boolean add(Object obj) {
+        ensureCapacaity(size+1);
+        data[size++] = obj;
+        return true;
+    }
+    
     
     public void add(int index, Object element){
         if(index >= size || index < 0){
@@ -62,23 +77,39 @@ public class MyVector implements List{
         data[index] = element;
         size++;
     }
-        
+    
+    public Object get(int index){
+        if(index < 0 || index >= size){
+            throw new IndexOutOfBoundsException("범위를 벗어났습니다.");
+        }
+        return data[index];
+    }
+
+    private void setCapacity(int capacity) {
+        if(this.capacity == capacity) return;
+
+        Object [] tmp = new Object[capacity];
+        System.arraycopy(data, 0, tmp, 0, size);
+        data = tmp;
+        this.capacity = capacity;
+    }
+
     // 1 2 3 4 5
     public Object remove(int index) {
         if(index >= size || index < 0){
             throw new IndexOutOfBoundsException("범위를 벗어났습니다.");
         }
         Object o = data[index];
-        for(int i=index;i<size-1;i++){
+        for(int i=index;i!=size-1;i++){
             data[i] = data[i+1];
         }
         data[size-1] = null;
         size--;
         return o;
     }
-
-/* ---------------------------------------------------------------- */
-
+    
+    /* ---------------------------------------------------------------- */
+    
     // 필드 반환 메서드
     public boolean isEmpty() { return size == 0; }
     public int capacity() { return capacity; }
@@ -92,10 +123,8 @@ public class MyVector implements List{
     public List subList(int fromIndex, int toIndex) { return null; }
     public ListIterator listIterator() { return null; }
     public ListIterator listIterator(int index) { return null; }
-    public Object get(int index) { return null; }
     public Object[] toArray() { return null; }
     public Object[] toArray(Object[] a) { return null; }
-    public boolean add(Object e) { return false;}
     public boolean addAll(Collection c) { return false; }
     public boolean addAll(int index, Collection c){ return false; }
     public boolean remove(Object o) { return false; }
