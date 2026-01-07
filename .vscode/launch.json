@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ClassEx",
+            "request": "launch",
+            "mainClass": "study.ObjectMethod.ClassEx",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CloneEx1",
+            "request": "launch",
+            "mainClass": "study.ObjectMethod.CloneEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CardToString2",
+            "request": "launch",
+            "mainClass": "study.ObjectMethod.CardToString2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CardToString2",
+            "request": "launch",
+            "mainClass": "자바의정석.ObjectMethod.CardToString2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashCodeEx1",
+            "request": "launch",
+            "mainClass": "자바의정석.ObjectMethod.HashCodeEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CardToString",
+            "request": "launch",
+            "mainClass": "자바의정석.Object클래스.CardToString",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CardToString2",
+            "request": "launch",
+            "mainClass": "자바의정석.Object클래스.CardToString2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
