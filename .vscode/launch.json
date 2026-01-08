@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringEx6",
+            "request": "launch",
+            "mainClass": "study.StringClass.StringEx6",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringEx5",
+            "request": "launch",
+            "mainClass": "study.StringClass.StringEx5",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringEx4",
+            "request": "launch",
+            "mainClass": "study.StringClass.StringEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringEx3",
+            "request": "launch",
+            "mainClass": "study.StringClass.StringEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringEx2",
+            "request": "launch",
+            "mainClass": "study.StringClass.StringEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringEx1",
+            "request": "launch",
+            "mainClass": "study.StringClass.StringEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "MyVector2Test",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.MyVector2Test",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "ClassEx",
             "request": "launch",
             "mainClass": "study.ObjectMethod.ClassEx",
