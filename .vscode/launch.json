@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringBufferEx2",
+            "request": "launch",
+            "mainClass": "study.StringBufferClass.StringBufferEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringBufferEx1",
+            "request": "launch",
+            "mainClass": "study.StringBufferClass.StringBufferEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "StringEx6",
             "request": "launch",
             "mainClass": "study.StringClass.StringEx6",
