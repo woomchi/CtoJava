@@ -18,14 +18,14 @@ final class Card2{
 public class ClassEx {
     public static void main(String[] args) throws Exception{
         Card2 c = new Card2("HEART",3);
-        Card2 c2 = Card2.class.newInstance();
+        // Card2 c2 = Card2.class.newInstance();
 
-        Class cObj = c.getClass();
+        // Class cObj = c.getClass();
 
         System.out.println(c);
-        System.out.println(c2);
-        System.out.println(cObj.getName());
-        System.out.println(cObj.toGenericString());
-        System.out.println(cObj.toString());
+        // // System.out.println(c2);
+        // System.out.println(cObj.getName());
+        // System.out.println(cObj.toGenericString());
+        // System.out.println(cObj.toString());
     }
 }
