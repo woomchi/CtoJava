@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WrapperEx2",
+            "request": "launch",
+            "mainClass": "study.WrapperClass.WrapperEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "WrapperEx1",
+            "request": "launch",
+            "mainClass": "study.WrapperClass.WrapperEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "MathEx3",
             "request": "launch",
             "mainClass": "study.MathClass.MathEx3",
