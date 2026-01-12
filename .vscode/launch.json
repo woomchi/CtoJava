@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BigIntegerEx",
+            "request": "launch",
+            "mainClass": "study.BigIntegerDecimal.BigIntegerEx",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "테스트.test",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "StringTokenizerEx5",
             "request": "launch",
             "mainClass": "study.StringTokenizerClass.StringTokenizerEx5",
