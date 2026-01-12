@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringTokenizerEx5",
+            "request": "launch",
+            "mainClass": "study.StringTokenizerClass.StringTokenizerEx5",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringTokenizerEx4",
+            "request": "launch",
+            "mainClass": "study.StringTokenizerClass.StringTokenizerEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringTokenizerEx3",
+            "request": "launch",
+            "mainClass": "study.StringTokenizerClass.StringTokenizerEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StringTokenizerEx2",
+            "request": "launch",
+            "mainClass": "study.StringTokenizerClass.StringTokenizerEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "ScannerEx3",
             "request": "launch",
             "mainClass": "study.ScannerClass.ScannerEx3",
