@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ScannerEx3",
+            "request": "launch",
+            "mainClass": "study.ScannerClass.ScannerEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEx2",
+            "request": "launch",
+            "mainClass": "study.ScannerClass.ScannerEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEx1",
+            "request": "launch",
+            "mainClass": "study.ScannerClass.ScannerEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "RandomEx4",
+            "request": "launch",
+            "mainClass": "study.RandomClass.RandomEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "RandomEx3",
+            "request": "launch",
+            "mainClass": "study.RandomClass.RandomEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "RandomEx2",
+            "request": "launch",
+            "mainClass": "study.RandomClass.RandomEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "RandomEx1",
+            "request": "launch",
+            "mainClass": "study.RandomClass.RandomEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "ObjectTest",
+            "request": "launch",
+            "mainClass": "study.ObjectsClass.ObjectTest",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CardTest",
+            "request": "launch",
+            "mainClass": "CardTest",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CardToString",
+            "request": "launch",
+            "mainClass": "CardToString",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "WrapperEx2",
             "request": "launch",
             "mainClass": "study.WrapperClass.WrapperEx2",
