@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayListEx1",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.ArrayListEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "BigIntegerEx",
             "request": "launch",
             "mainClass": "study.BigIntegerDecimal.BigIntegerEx",

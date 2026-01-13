@@ -3,16 +3,16 @@ import java.util.*; // ArrayList, Collection 등을 포함하는 패키지
 
 public class ArrayListEx1 {
     public static void main(String [] args){
-        ArrayList list1 = new ArrayList(10);       // 크기가 10인 ArrayList 생성
-        list1.add(new Integer(5));  // 따로 변수를 선언하지 않고 정수형의 생성자로 바로 입력시킴
-        list1.add(new Integer(4));
-        list1.add(new Integer(2));
-        list1.add(new Integer(0));
-        list1.add(new Integer(1));
-        list1.add(new Integer(3));
+        ArrayList<String> list1 = new ArrayList<String>(10);       // 크기가 10인 ArrayList 생성
+        list1.add(String.valueOf(5));  // 따로 변수를 선언하지 않고 정수형의 생성자로 바로 입력시킴
+        list1.add(String.valueOf(4));
+        list1.add(String.valueOf(2));
+        list1.add(String.valueOf(0));
+        list1.add(String.valueOf(1));
+        list1.add(String.valueOf(3));
 
         // list1의 1부터 4번째까지 반환된 객체를 list2를 생성할 때 저장(List 타입이므로 Collection 매개변수로 적합함)
-        ArrayList list2 = new ArrayList(list1.subList(1,4));    
+        ArrayList<String> list2 = new ArrayList<String>(list1.subList(1,4));    
         print(list1, list2);
 
         // Collection은 인터페이스이고, Collections는 메서드를 가진 클래스이다.
@@ -58,7 +58,7 @@ public class ArrayListEx1 {
 
     }
 
-    static void print(ArrayList list1, ArrayList list2) {
+    static void print(ArrayList<String> list1, ArrayList<String> list2) {
         System.out.println("list1: "+list1);
         System.out.println("list2: "+list2);
         System.out.println();
