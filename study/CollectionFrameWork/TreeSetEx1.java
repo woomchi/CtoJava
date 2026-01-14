@@ -3,7 +3,7 @@ import java.util.*;
 
 public class TreeSetEx1 {
     public static void main(String[] args) {
-        TreeSet set = new TreeSet();
+        TreeSet<String> set = new TreeSet<String>();
 
         String from = "b";
         String to = "d";

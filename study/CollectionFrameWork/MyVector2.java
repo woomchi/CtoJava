@@ -1,7 +1,7 @@
 package study.CollectionFrameWork;
 import java.util.*;
 
-public class MyVector2 extends MyVector implements Iterator{
+public class MyVector2 extends MyVector implements Iterator<Object>{
     int cursor = 0;
     int lastRet = -1;
     
@@ -15,7 +15,7 @@ public class MyVector2 extends MyVector implements Iterator{
 
     public String toString(){
         String tmp = "";
-        Iterator it = iterator();
+        Iterator<?> it = iterator();
 
         for(int i=0;it.hasNext();i++){
             if(i!=0) tmp+=", ";
@@ -24,7 +24,7 @@ public class MyVector2 extends MyVector implements Iterator{
         return "["+tmp+"]";
     }
 
-    public Iterator iterator(){
+    public Iterator<Object> iterator(){
         cursor = 0;
         lastRet = -1;
         return this;

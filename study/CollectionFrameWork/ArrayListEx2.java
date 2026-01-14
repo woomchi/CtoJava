@@ -8,7 +8,7 @@ public class ArrayListEx2 {
         int length = source.length();
         
         // 크기를 10정도 여유있게 할당하는 사전작업을 통해 크기 재할당으로 인한 처리시간 증가 방지
-        List list = new ArrayList(length/LIMIT+10);   
+        List<String> list = new ArrayList<String>(length/LIMIT+10);   
 
         for(int i=0;i<length;i+=LIMIT){
             if(i+LIMIT <length){

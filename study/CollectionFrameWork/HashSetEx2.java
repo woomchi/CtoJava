@@ -3,7 +3,7 @@ import java.util.*;
 
 public class HashSetEx2 {
     public static void main(String[] args) {
-        HashSet set = new HashSet();
+        HashSet<Object> set = new HashSet<Object>();
 
         set.add("abc");
         set.add("abc");

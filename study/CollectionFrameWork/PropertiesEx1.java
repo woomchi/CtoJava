@@ -12,7 +12,7 @@ public class PropertiesEx1 {
         prop.setProperty("capacity", "10");
 
         //prop에 저장된 요소들 Enumeration을 통해 출력
-        Enumeration e = prop.propertyNames();
+        Enumeration<?> e = prop.propertyNames();
 
         while(e.hasMoreElements()){
             String element = (String)e.nextElement();

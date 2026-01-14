@@ -3,8 +3,8 @@ import java.util.*;
 
 public class StackQueueEx {
     public static void main(String[] args) {
-        Stack st = new Stack();
-        Queue q = new LinkedList();
+        Stack<String> st = new Stack<String>();
+        Queue<String> q = new LinkedList<String>();
 
         st.push("0");
         st.push("1");

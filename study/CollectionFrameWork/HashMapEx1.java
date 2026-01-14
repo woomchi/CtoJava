@@ -3,7 +3,7 @@ import java.util.*;
 
 public class HashMapEx1 {
     public static void main(String[] args) {
-        HashMap map = new HashMap();
+        HashMap<String, String> map = new HashMap<String, String>();
         map.put("myId", "1234");
         map.put("asdf", "1111");
         map.put("asdf", "1234");
@@ -31,5 +31,6 @@ public class HashMapEx1 {
                 break;
             }
         }
+        s.close();
     }
 }

@@ -5,8 +5,8 @@ import java.util.List;
 
 public class ArrayListLinkedListTest2 {
     public static void main(String[] args) {
-        ArrayList al = new ArrayList(1000000);
-        LinkedList ll = new LinkedList();
+        ArrayList<String> al = new ArrayList<String>(1000000);
+        LinkedList<String> ll = new LinkedList<String>();
         add(al);
         add(ll);
 
@@ -15,11 +15,11 @@ public class ArrayListLinkedListTest2 {
         System.out.println("LinkedList: "+access(ll));
     }
 
-    public static void add(List list){
+    public static void add(List<String> list){
         for(int i=0;i<100000;i++) list.add(i+"");
     }
 
-    public static long access(List list){
+    public static long access(List<String> list){
         long start = System.currentTimeMillis();
         for(int i=0;i<10000;i++) list.get(i);
         long end = System.currentTimeMillis();

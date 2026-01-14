@@ -2,7 +2,7 @@ package study.CollectionFrameWork;
 import java.util.*;
 
 public class HashMapEx3 {
-    static HashMap phoneBook = new HashMap();
+    static HashMap<String,HashMap<String,String>> phoneBook = new HashMap<String,HashMap<String,String>>();
     public static void main(String[] args) {
         addPhoneNo("친구", "이자바", "010-111-1111");
         addPhoneNo("친구", "김자바", "010-222-2222");
@@ -18,13 +18,13 @@ public class HashMapEx3 {
 
     static void addPhoneNo(String groupName, String name, String tel) {
         addGroup(groupName);
-        HashMap group = (HashMap)phoneBook.get(groupName);
+        HashMap<String,String> group = (HashMap<String,String>)phoneBook.get(groupName);
         group.put(tel,name);
     }
 
     static void addGroup(String groupName){
         if(!phoneBook.containsKey(groupName)){
-            phoneBook.put(groupName,new HashMap());
+            phoneBook.put(groupName,(new HashMap<String,String>()));
         }
     }
     
@@ -33,18 +33,18 @@ public class HashMapEx3 {
     }
 
     static void printlist() {
-        Set set = phoneBook.entrySet();
-        Iterator it = set.iterator();
+        Set<Map.Entry<String,HashMap<String,String>>> set = phoneBook.entrySet();
+        Iterator<Map.Entry<String,HashMap<String,String>>> it = set.iterator();
 
         while(it.hasNext()){
-            Map.Entry e = (Map.Entry)it.next();
+            Map.Entry<String,HashMap<String,String>> e = (Map.Entry<String,HashMap<String,String>>)it.next();
 
-            Set subSet = ((HashMap)e.getValue()).entrySet();
-            Iterator subIt = subSet.iterator();
+            Set<Map.Entry<String,String>> subSet = ((HashMap<String,String>)e.getValue()).entrySet();
+            Iterator<Map.Entry<String,String>> subIt = subSet.iterator();
             System.out.println(" * "+e.getKey()+"["+subSet.size()+"]");
 
             while(subIt.hasNext()){
-                Map.Entry subE = (Map.Entry)subIt.next();
+                Map.Entry<String,String> subE = (Map.Entry<String,String>)subIt.next();
                 String telNo = (String)subE.getKey();
                 String name = (String)subE.getValue();
                 System.out.println(name+" "+telNo);
