@@ -1,5 +1,4 @@
 package study.RandomClass;
-import java.util.*;
 
 public class RandomEx4 {
     final static int RECORD_NUM = 10;

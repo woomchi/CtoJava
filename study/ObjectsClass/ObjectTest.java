@@ -26,7 +26,7 @@ public class ObjectTest {
         System.out.println("toString(null)= "+Objects.toString(null));
         System.out.println("toString(null, \"\")= "+Objects.toString(null, ""));
 
-        Comparator c = String.CASE_INSENSITIVE_ORDER;
+        Comparator<String> c = String.CASE_INSENSITIVE_ORDER;
 
         System.out.println("comapre(\"aa\",\"bb\")= "+Objects.compare("aa", "bb", c));
         System.out.println("comapre(\"bb\",\"aa\")= "+Objects.compare("bb", "aa", c));
