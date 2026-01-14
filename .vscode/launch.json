@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "IteratorEx2",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.IteratorEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashSetLotto",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashSetLotto",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashSetEx4",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashSetEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashSetEx3",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashSetEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashSetEx2",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashSetEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashSetEx1",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashSetEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashMapEx4",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashMapEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashMapEx2",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashMapEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "ComparatorEx",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.ComparatorEx",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "HashMapEx1",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.HashMapEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "CollectionsEx",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.CollectionsEx",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListLinkedListTest2",
+            "request": "launch",
+            "mainClass": "study.CollectionFrameWork.ArrayListLinkedListTest2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "FruitBoxEx3",
             "request": "launch",
             "mainClass": "study.Generics.FruitBoxEx3",

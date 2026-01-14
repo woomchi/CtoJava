@@ -2,8 +2,8 @@ package study.CollectionFrameWork;
 import java.util.*;
 
 public class StackEx1 {
-    public static Stack back = new Stack();
-    public static Stack forward = new Stack();
+    public static Stack<String> back = new Stack<String>();
+    public static Stack<String> forward = new Stack<String>();
 
     public static void main(String[] args) {
         goURL("1. 네이트");

@@ -11,7 +11,7 @@ public class MyVector2Test {
         v.add("4");
 
         System.out.println("삭제 전: "+v);
-        Iterator it = v.iterator();
+        Iterator<Object> it = v.iterator();
         it.next();
         it.remove();
         it.next();

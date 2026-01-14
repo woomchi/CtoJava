@@ -2,7 +2,7 @@ package study.CollectionFrameWork;
 import java.util.*;
 
 public class QueueEx1 {
-    static Queue q = new LinkedList();
+    static Queue<String> q = new LinkedList<String>();
     static final int MAX_SIZE = 5;
 
     public static void main(String[] args) {
@@ -17,6 +17,7 @@ public class QueueEx1 {
                 if("".equals(input)) continue;
     
                 if(input.equalsIgnoreCase("q")){
+                    s.close();
                     System.exit(0);
                 }else if(input.equalsIgnoreCase("help")){
                     System.out.println(" help - 도움말을 보여줍니다.");
@@ -26,8 +27,8 @@ public class QueueEx1 {
                     int i = 0;
                     save(input);
     
-                    LinkedList tmp = (LinkedList)q;
-                    ListIterator it = tmp.listIterator();
+                    LinkedList<String> tmp = (LinkedList<String>)q;
+                    ListIterator<String> it = tmp.listIterator();
     
                     while(it.hasNext()){
                         System.out.println(++i+"."+it.next());
@@ -40,6 +41,7 @@ public class QueueEx1 {
                 System.out.println("입력 오류입니다.");
             }
         }
+        
     }
 
     public static void save(String input) {

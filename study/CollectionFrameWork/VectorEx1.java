@@ -4,7 +4,7 @@ import java.util.*;
 public class VectorEx1 {
     public static void main(String[] args) {
         // capacity가 5인 Vector v를 생성하고 3개의 객체를 저장한 상태
-        Vector v = new Vector(5);
+        Vector<String> v = new Vector<String>(5);
         v.add("1");
         v.add("2");
         v.add("3");
@@ -46,7 +46,7 @@ public class VectorEx1 {
         */
     }
 
-    static void print(Vector v) {
+    static void print(Vector<String> v) {
         System.out.println(v);
         System.out.println("size: "+v.size());
         System.out.println("capacity: "+v.capacity());

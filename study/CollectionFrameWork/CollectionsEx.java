@@ -4,7 +4,7 @@ import static java.util.Collections.*;
 
 public class CollectionsEx {
     public static void main(String[] args) {
-        List list = new ArrayList();
+        List<Integer> list = new ArrayList<Integer>();
         System.out.println(list);
 
         addAll(list, 1,2,3,4,5);
@@ -36,7 +36,7 @@ public class CollectionsEx {
         System.out.println("list="+list);
 
         // List와 같은 크기의 새로운 List를 생성하고 2로 채움(단, 크기 변경 불가)
-        List newList = nCopies(list.size(),2);
+        List<Integer> newList = nCopies(list.size(),2);
         System.out.println("newList="+newList);
 
         System.out.println(disjoint(list,newList)); // disjoint 메서드 : 공통 요소가 없으면 true 반환
@@ -48,8 +48,8 @@ public class CollectionsEx {
         replaceAll(list,2,1);
         System.out.println("list="+list);
         
-        Enumeration e = enumeration(list);
-        ArrayList list2 = list(e);
+        Enumeration<Integer> e = enumeration(list);
+        ArrayList<Integer> list2 = list(e);
 
         System.out.println("list2="+list2);
     }

@@ -3,8 +3,8 @@ import java.util.*;
 
 public class ArrayLinkedListTest {
     public static void main(String[] args) {
-        ArrayList al = new ArrayList<>(2000000);
-        LinkedList ll = new LinkedList<>();
+        ArrayList<String> al = new ArrayList<String>(2000000);
+        LinkedList<String> ll = new LinkedList<String>();
 
         System.out.println("= 순차적으로 추가하기 =");
         System.out.println("ArrayList: "+add1(al));
@@ -24,7 +24,7 @@ public class ArrayLinkedListTest {
         
     }
 
-    private static long add1(List list) {
+    private static long add1(List<String> list) {
         // 순방향으로 i값을 추가
         long start = System.currentTimeMillis();
         for(int i=0;i<1000000;i++) list.add(i+"");
@@ -32,7 +32,7 @@ public class ArrayLinkedListTest {
         return end-start;
     }
 
-    private static long add2(List list) {
+    private static long add2(List<String> list) {
         // 500간격마다 문자열 "X"를 추가
         long start = System.currentTimeMillis();
         for(int i=0;i<10000;i++) list.add(500,"X");
@@ -40,7 +40,7 @@ public class ArrayLinkedListTest {
         return end-start;
     }
 
-    private static long remove1(List list) {
+    private static long remove1(List<String> list) {
         // 역방향으로 i값 제거
         long start = System.currentTimeMillis();
         for(int i=list.size()-1; i>=0 ;i--) list.remove(i);
@@ -48,7 +48,7 @@ public class ArrayLinkedListTest {
         return end-start;
     }
 
-    private static long remove2(List list) {
+    private static long remove2(List<String> list) {
         // 순방향으로 i값을 제거
         long start = System.currentTimeMillis();
         for(int i=0;i<10000;i++) list.remove(i);

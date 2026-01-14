@@ -1,7 +1,7 @@
 package study.CollectionFrameWork;
 import java.util.*;
 
-public class MyStack extends Vector {
+public class MyStack extends Vector<Object> {
     public Object push(Object item){
         addElement(item);   //요소 추가
         return item;

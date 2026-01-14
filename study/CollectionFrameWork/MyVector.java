@@ -1,7 +1,7 @@
 package study.CollectionFrameWork;
 import java.util.*;
 
-public class MyVector implements List{
+public class MyVector implements List<Object>{
     Object [] data = null;
     int capacity = 0;
     int size = 0;
@@ -33,10 +33,14 @@ public class MyVector implements List{
 
     public boolean equals(Object o){
         // 두 객체의 참조가 같은지 확인
-        int index = 0;
-        while(index<size){
-            if(o.equals(data[index])){
-                index++;
+        if(o == this) return true;
+        if(!(o instanceof List)) return false;
+        List<?> other = (List<?>)o;
+        if(size != other.size()) return false;
+
+        for(int i=0;i<size;i++){
+            if(o.equals(data[i])){
+                i++;
             }else{
                 return false;
             }
@@ -48,8 +52,9 @@ public class MyVector implements List{
         if(index >= size || index < 0){
             throw new IndexOutOfBoundsException("범위를 벗어났습니다.");
         }
+        Object oldValue = data[index];
         data[index] = element;
-        return element;
+        return oldValue;
     }
 
     private void ensureCapacaity(int minCapacity) {
@@ -117,20 +122,20 @@ public class MyVector implements List{
     
     // List 인터페이스로부터 상속받은 메서드들 => 잘 작동되기 위해 기능 생략
     public void clear() {}
-    public int indexOf(Object o) { return -1; }
-    public int lastIndexOf(Object o) { return -1; }
-    public Iterator iterator() { return null; }
-    public List subList(int fromIndex, int toIndex) { return null; }
-    public ListIterator listIterator() { return null; }
-    public ListIterator listIterator(int index) { return null; }
-    public Object[] toArray() { return null; }
-    public Object[] toArray(Object[] a) { return null; }
-    public boolean addAll(Collection c) { return false; }
-    public boolean addAll(int index, Collection c){ return false; }
-    public boolean remove(Object o) { return false; }
-    public boolean removeAll(Collection c) { return false; }
-    public boolean retainAll(Collection c) { return false; }
-    public boolean containsAll(Collection c) { return false; }
+    public int indexOf(Object o) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public int lastIndexOf(Object o) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public Iterator<Object> iterator() { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public List<Object> subList(int fromIndex, int toIndex) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public ListIterator<Object> listIterator() { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public ListIterator<Object> listIterator(int index) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public Object[] toArray() { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public <T> T[] toArray(T[] a) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public boolean addAll(Collection<?> c) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public boolean addAll(int index, Collection<?> c){ throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public boolean remove(Object o) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public boolean removeAll(Collection<?> c) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public boolean retainAll(Collection<?> c) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
+    public boolean containsAll(Collection<?> c) { throw new UnsupportedOperationException("아직 구현하지 않았습니다."); }
     
     //default void sort(Comparator c) {}
     //default Spliterator spliterator() {}
