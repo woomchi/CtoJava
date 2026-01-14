@@ -12,15 +12,15 @@ public class Exception10 {
                 throw new Exception("파일 이름이 유효하지 않습니다.");
         } catch (Exception e) {
             fileName = "제목없음.txt";
-        }finally {
-            File f = new File(fileName);
-            createNewFile(f);
-            return f;
         }
+        //finally { }
+        File f = new File(fileName);
+        createNewFile(f);
+        return f;
     }
     static void createNewFile(File f){
         try {
             f.createNewFile();
-        } catch (Exception e) { }
+        } catch (Exception e) {}
     }
 }
