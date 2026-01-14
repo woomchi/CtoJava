@@ -11,7 +11,7 @@ public class WrapperEx2 {
         int i2 = intg + 10;
         long l = intg + lng;
 
-        Integer intg2 = new Integer(20);
+        Integer intg2 = Integer.valueOf(20);
         int i3 = (int)intg2;
 
         Integer intg3 = intg2 + i3;
