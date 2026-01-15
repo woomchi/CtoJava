@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EnumEx4",
+            "request": "launch",
+            "mainClass": "study.EnumClass.EnumEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "EnumEx3",
+            "request": "launch",
+            "mainClass": "study.EnumClass.EnumEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "EnumEx2",
+            "request": "launch",
+            "mainClass": "study.EnumClass.EnumEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "IteratorEx2",
             "request": "launch",
             "mainClass": "study.CollectionFrameWork.IteratorEx2",
