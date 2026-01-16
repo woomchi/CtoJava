@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AnnotationEx4",
+            "request": "launch",
+            "mainClass": "study.Annotation.AnnotationEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "AnnotationEx3",
+            "request": "launch",
+            "mainClass": "study.Annotation.AnnotationEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "AnnotationEx2",
+            "request": "launch",
+            "mainClass": "study.Annotation.AnnotationEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "EnumEx4",
             "request": "launch",
             "mainClass": "study.EnumClass.EnumEx4",
