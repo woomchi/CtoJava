@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LambdaEx7",
+            "request": "launch",
+            "mainClass": "study.Lambda.LambdaEx7",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "LambdaEx6",
+            "request": "launch",
+            "mainClass": "study.Lambda.LambdaEx6",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "LambdaEx5",
+            "request": "launch",
+            "mainClass": "study.Lambda.LambdaEx5",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "LambdaEx4",
+            "request": "launch",
+            "mainClass": "study.Lambda.LambdaEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "LambdaEx3",
+            "request": "launch",
+            "mainClass": "study.Lambda.LambdaEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "LambdaEx2",
+            "request": "launch",
+            "mainClass": "study.Lambda.LambdaEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "LambdaEx1",
+            "request": "launch",
+            "mainClass": "study.Lambda.LambdaEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "InnerEx4",
             "request": "launch",
             "mainClass": "study.NestedClass.InnerEx4",
