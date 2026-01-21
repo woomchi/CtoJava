@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StreamEx7",
+            "request": "launch",
+            "mainClass": "study.StreamClass.StreamEx7",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StreamEx6",
+            "request": "launch",
+            "mainClass": "study.StreamClass.StreamEx6",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StreamEx5",
+            "request": "launch",
+            "mainClass": "study.StreamClass.StreamEx5",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StreamEx4",
+            "request": "launch",
+            "mainClass": "study.StreamClass.StreamEx4",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StreamEx3",
+            "request": "launch",
+            "mainClass": "study.StreamClass.StreamEx3",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StreamEx2",
+            "request": "launch",
+            "mainClass": "study.StreamClass.StreamEx2",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "StreamEx1",
+            "request": "launch",
+            "mainClass": "study.StreamClass.StreamEx1",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "LambdaEx7",
             "request": "launch",
             "mainClass": "study.Lambda.LambdaEx7",
