@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 class Main{
     // 나의 풀이
-    // 문자열" "을 결합하면 재할당이 일어나기 때문에 이럴 때는 println으로 처리하기
+    // 문자열" "을 결합하면 재할당이 일어나기 때문에 이럴 때는 println으로 처리하기 
     public static void main(String[] args) throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
