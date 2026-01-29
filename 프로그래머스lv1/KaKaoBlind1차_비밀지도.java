@@ -1,4 +1,4 @@
-package 코딩테스트lv1;
+package 프로그래머스lv1;
 
 public class KaKaoBlind1차_비밀지도 {
     // 나의 풀이

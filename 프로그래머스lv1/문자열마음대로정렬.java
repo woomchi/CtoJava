@@ -1,4 +1,4 @@
-package 코딩테스트lv1;
+package 프로그래머스lv1;
 import java.util.*;
 
 public class 문자열마음대로정렬 {

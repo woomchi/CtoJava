@@ -1,4 +1,4 @@
-package 코딩테스트lv1;
+package 프로그래머스lv1;
 
 public class 푸드파이트대회 {
     //나의 풀이
