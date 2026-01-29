@@ -1,4 +1,4 @@
-package 코딩테스트lv0;
+package 프로그래머스lv0;
 
 import java.util.ArrayList;
 import java.util.List;

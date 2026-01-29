@@ -1,4 +1,4 @@
-package 코딩테스트lv0;
+package 프로그래머스lv0;
 
 public class 저주의숫자 {
     // 나의 풀이

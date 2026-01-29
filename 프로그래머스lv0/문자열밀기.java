@@ -1,4 +1,4 @@
-package 코딩테스트lv0;
+package 프로그래머스lv0;
 class 문자열밀기 {
     //  내가 푼 방식 - C언어 스타일
     public int shiftStr(String A, String B) {

@@ -1,4 +1,4 @@
-package 코딩테스트lv0;
+package 프로그래머스lv0;
 public class 안전지대 {
     public int solution(int[][] board) {
         int size = board.length;

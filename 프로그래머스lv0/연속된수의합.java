@@ -1,4 +1,4 @@
-package 코딩테스트lv0;
+package 프로그래머스lv0;
 public class 연속된수의합 {
         public int[] solution(int num, int total) {
         int[] answer = new int[num];

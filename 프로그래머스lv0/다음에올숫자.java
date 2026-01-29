@@ -1,4 +1,4 @@
-package 코딩테스트lv0;
+package 프로그래머스lv0;
 public class 다음에올숫자 {
     // 내 문제 풀이
     public int solution(int[] common) {
