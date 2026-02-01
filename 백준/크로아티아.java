@@ -1,7 +1,7 @@
 package 백준;
 import java.io.*;
 
-class Main{
+class 크로아티아{
     // 나의 풀이
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
