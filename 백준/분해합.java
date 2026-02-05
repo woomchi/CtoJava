@@ -1,3 +1,4 @@
+package 백준;
 import java.io.*;
 
 class 분해합{
