@@ -1,6 +1,9 @@
 package 프로그래머스lv1;
 
 public class KaKaoBlind1차_비밀지도 {
+    /* 핵심 로직 : 비트 연산자 '|' 를 통한 비트맵 연산 + String.format을 통한 지정된 형식 출력 */
+
+
     // 나의 풀이
     // 비트 연산과 StringBuilder를 이용해 효율적으로 문제를 풀이함
     // 다만, 라이브러리 메서드를 사용하지 않았다는 점에서 

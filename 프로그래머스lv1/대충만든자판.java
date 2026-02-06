@@ -3,6 +3,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class 대충만든자판 {
+    /* 핵심 로직 : 각 문자가 포함된 키패드 찾기 + 최소 누르기 횟수 전처리 */
+
     // 나의 풀이
     // 매번 keymap을 순회하는 중복 연산이 실행되기 때문에 대용량 데이터를 다룰 때 시간초과될 가능성이 높음
     public int[] solution(String[] keymap, String[] targets) {

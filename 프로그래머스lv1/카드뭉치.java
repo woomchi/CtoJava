@@ -4,6 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class 카드뭉치 {
+    /* 핵심 로직 : 투 인덱스로 비교 */
+
     // 나의 풀이
     // peek 두번 호출
     // 문제 특성에는 부합하지만, 실무적으로는 Queue보다는 인덱스로 구현함

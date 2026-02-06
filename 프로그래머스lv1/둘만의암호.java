@@ -1,6 +1,8 @@
 package 프로그래머스lv1;
 
 public class 둘만의암호 {
+    /* 핵심 로직 : 건너뛰는 문자를 제외한 알파벳 리스트에서 탐색 */
+
     // 나의 풀이
     // 정확한 로직이지만 직관적이지 않음
     public String solution(String s, String skip, int index) {

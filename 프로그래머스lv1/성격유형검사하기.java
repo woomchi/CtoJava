@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class 성격유형검사하기 {
+    /* 핵심 로직 : 제한적인 범위이므로 하드 코딩이 가독성이 좋음 */
+
     // 나의 풀이
     // 매직 넘버 연산이 존재함
     // 이미 처음에 0으로 초기화했기 때문에 getOrDefault 사용 불필요함

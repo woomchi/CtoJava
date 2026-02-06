@@ -3,6 +3,8 @@ package 프로그래머스lv1;
 import java.util.HashMap;
 
 public class 달리기경주 {
+    /* 핵심 로직 : 배열(순서 관리) + Map(위치 참조) */
+
     // 피드백을 토대로 짠 코드
     // 애초에 등수를 반환하지 않기 때문에 통일성을 위해 i+1 대신 i로 저장하는게 좋음
     public String[] solution(String[] players, String[] callings) {

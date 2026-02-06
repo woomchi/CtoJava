@@ -2,6 +2,8 @@ package 프로그래머스lv1;
 import java.util.*;
 
 public class 두개뽑아서더하기 {
+    /* 핵심 로직 : TreeSet */
+
     // 나의 풀이
     public int[] solution(int[] numbers) {
         int len = numbers.length;
@@ -20,6 +22,7 @@ public class 두개뽑아서더하기 {
         Arrays.sort(arr);
         return arr;
     }
+
 
     // Gemini 피드백
     public int[] solutionGemini(int[] numbers) {

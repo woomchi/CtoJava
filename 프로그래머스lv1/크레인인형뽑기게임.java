@@ -5,6 +5,8 @@ import java.util.Deque;
 import java.util.Stack;
 
 public class 크레인인형뽑기게임 {
+    /* 핵심 로직 : Deque를 활용 */
+
     // 나의 풀이
     // 로직에 문제는 없지'만', 현대 자바에서는 Stack의 동기화로 인한 오버헤드 성능을 이유로 지양함
     // 되도록이면 Stack 대신 Deque 사용을 지향함 => 삽입 순서 상관없이 앞 뒤를 pop 할 수 있는데 결정적으로 기능은 같음

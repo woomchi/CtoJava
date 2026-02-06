@@ -3,6 +3,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class 추억점수 {
+    /* 핵심 로직 : getOrDefault로 null 방지 */
+
     // 나의 풀이
     // Hash Map에 대한 초기 용량을 지정하지 않으면 재할당이 필요할 때 메모리가 불필요하게 사용됨
     // index는 어차피 photo.length 크기이기 때문에 첫번째 반복문을 향상된 반복문이 아니라 i로 확인하는 방식이 나음

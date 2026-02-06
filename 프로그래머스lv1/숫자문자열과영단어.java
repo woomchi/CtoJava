@@ -1,6 +1,8 @@
 package 프로그래머스lv1;
 
 public class 숫자문자열과영단어 {
+    /* 핵심 로직 : 문자열 매핑 + replace로 변경 */
+
     // 나의 풀이
     // 정확성과 가독성 측면에서는 좋음
     // 다만, String이 불변 객체이기 때문에 메모리 사용량이 높아질 수 있으므로 StringBuilder가 더 좋음

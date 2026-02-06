@@ -5,8 +5,8 @@ import java.util.Collections;
 import java.util.List;
 
 public class 과일장수 {
+    /* 핵심 로직 : 오름차순 정렬 + 지정된 과일 개수만큼 건너뛰며 역순 조회 */
 
-class Solution {
     // 나의 풀이
     // 불필요한 자료구조 사용
     // 불필요한 서브리스트
@@ -56,5 +56,4 @@ class Solution {
 
         return answer;
     }
-}
 }

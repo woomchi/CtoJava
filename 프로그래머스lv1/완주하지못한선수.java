@@ -3,6 +3,8 @@ package 프로그래머스lv1;
 import java.util.*;
 
 public class 완주하지못한선수 {
+    /* 핵심 로직 : Map.Entry 객체를 순회하며 데이터 다루기 */
+
     // 나의 풀이
     // List로 만들어봤지만, HashMap을 어떻게 활용해야할 지 모르겠어서 다른 코드 참고함
     public String solution(String[] participant, String[] completion) {

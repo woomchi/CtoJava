@@ -3,6 +3,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class 햄버거만들기 {
+    /* 핵심 로직 : list를 stack처럼 활용 */
+
     // 나의 풀이
     // ArrayList를 활용한 다른 사람의 코드 참고함
     // remove 연산과 ArrayList를 사용했기 때문에 박싱 연산이 생김 => 효율이 낮아짐

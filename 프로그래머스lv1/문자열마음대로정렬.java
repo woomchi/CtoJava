@@ -2,6 +2,8 @@ package 프로그래머스lv1;
 import java.util.*;
 
 public class 문자열마음대로정렬 {
+    /* 핵심 로직 : 람다식 활용한 비교자 지정 */
+
     // 나의 풀이
     // 정석적인 버블 정렬 알고리즘이지만, 효율적이지 못함
     public String[] solution(String[] strings, int n) {

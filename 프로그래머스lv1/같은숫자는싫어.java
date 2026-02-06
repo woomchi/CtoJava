@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class 같은숫자는싫어 {
+    /* 핵심 로직 : list.size()로 현재 요소 개수 확인 */
+
     // 나의 풀이
     // isEmpty를 쓸 이유가 없음..(list.add(arr[0])) 이기 때문에
     // index를 따로 관리하는 것은 가독성 측면에서 아쉬움

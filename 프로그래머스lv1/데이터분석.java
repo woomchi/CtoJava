@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 
 public class 데이터분석 {
+    /* 핵심 로직 : 배열(int[]) 타입의 리스트 활용 */
+
     // 나의 풀이
     // 제네릭 타입에 배열이 되는 줄 몰랐음
     // Comparator 구현할 줄 몰라서 그냥 이중 반복문 버블 정렬 알고리즘 사용함

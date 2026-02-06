@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class 키패드누르기 {
+    /* 핵심 로직 : 나머지로 키패드 종류 인식 + x와y거리 합으로 거리 비교 */
+
     // 나의 풀이
     // 거리 계산을 List로 하면서 잘못된 계산이 발생할 수 있음(인덱스 실수)
     // 변수명들이 '_'를 사용하는데 이보다 하나의 단어로 쓰는게 나음

@@ -8,6 +8,8 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class 숫자짝궁 {
+    /* 핵심 로직 : 계수 정렬 */
+
     // 나의 풀이
     // 한정적 범위에서는 map보다 배열 성능이 뛰어남
     // 땜질 조건문이 있어 이를 첫글자가 0이면 0으로 처리하는 로직이 흐름상 나음

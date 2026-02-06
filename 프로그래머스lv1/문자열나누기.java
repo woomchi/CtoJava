@@ -1,6 +1,8 @@
 package 프로그래머스lv1;
 
 public class 문자열나누기 {
+    /* 핵심 로직 : 로직 순서를 바꾸어 문자열 끝 처리를 없앰 */
+
     // 나의 풀이
     public int solution(String s) {
         int answer = 0;

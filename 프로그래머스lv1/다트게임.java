@@ -4,6 +4,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class 다트게임 {
+    /* 핵심 로직 : 정규 표현식 + Pattern & Matcher 메서드 */
+
     // 나의 풀이
     // 불필요한 배열 선언 및 사용
     // substring으로 객체 재생성 빈번함

@@ -1,6 +1,8 @@
 package 프로그래머스lv1;
 
 public class 소수찾기 {
+    /* 핵심 로직 : 1~N 제곱근까지의 소수의 배수를 지움 */
+
     public static void main(String[] args) {
         int N = 100000;
         solution1(N);   // 1부터 N까지 모두 연산

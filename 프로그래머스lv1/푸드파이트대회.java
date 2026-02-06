@@ -1,6 +1,8 @@
 package 프로그래머스lv1;
 
 public class 푸드파이트대회 {
+    /* 핵심 로직 : StringBuilder + String.repeat 활용 */
+
     //나의 풀이
     public String solution(int[] food) {
         StringBuilder sb = new StringBuilder();

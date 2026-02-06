@@ -1,6 +1,8 @@
 package 프로그래머스lv1;
 
 class 덧칠하기{
+    /* 핵심 로직 : 마지막으로 칠한 롤러의 위치 */
+
     // 나의 풀이
     // for문은 단순히 순회하고 조건 판단은 별도의 변수가 해야함
     public int solution(int n, int m, int[] section) {

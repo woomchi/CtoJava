@@ -3,6 +3,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 class 포켓몬{
+    /* 핵심 로직 : HashSet + max 활용 */
+
 // 나의 풀이
     // contains와 add 모두 boolean 타입이기 때문에 코드가 겹침 => 그냥 add만 하면 알아서 걸러줌
     // 왜? => HashSet은 중복을 허용하지 않기 때문이다.
