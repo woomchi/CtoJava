@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.StringTokenizer;
 
 public class 가장많이받은선물 {
+    /* 핵심 로직 : 2차원 배열로 분리 */
+
     // 나의 풀이
     // 유틸리티 클래스 사용 과다로 시간 효율성 저하
     // 매직 넘버 사용

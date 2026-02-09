@@ -1,6 +1,8 @@
 package 프로그래머스lv1;
 
 public class 바탕화면정리 {
+    /* 핵심 로직 : 반전된 x축과 y축 */
+
     // 나의 풀이
     // 최대 최소값은 왠만하면 MAX_VALUE와 MIN_VALUE로 하기
     class Solution {
