@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "골드바흐파티션",
+            "request": "launch",
+            "mainClass": "백준.골드바흐파티션",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "test",
