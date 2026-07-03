@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "곱해서가까운수만들기",
+            "request": "launch",
+            "mainClass": "SCPC.곱해서가까운수만들기",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "SCPC.Solution",
+            "projectName": "오답노트_8b9a8e5c"
+        },
+        {
+            "type": "java",
             "name": "골드바흐파티션",
             "request": "launch",
             "mainClass": "백준.골드바흐파티션",
