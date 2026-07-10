@@ -9,6 +9,13 @@
             "name": "Solution",
             "request": "launch",
             "mainClass": "Solution",
+            "projectName": "CtoJava_cae0c0b9"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
             "projectName": "오답노트_8b9a8e5c"
         },
         {

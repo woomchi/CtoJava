@@ -8,10 +8,9 @@ Do not use file input and output
 Please be very careful. 
 */
 
+import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
-import java.io.BufferedReader;
-
 
 /*
    As the name of the class should be Solution , using Solution.java as the filename is recommended.
@@ -32,42 +31,45 @@ class Solution {
 		/*
 		   Make new scanner from standard input System.in, and read data.
 		 */
-		// Scanner sc = new Scanner(System.in);
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+		//Scanner sc = new Scanner(new FileInputStream("input.txt"));
 
 		int T = Integer.parseInt(br.readLine());
 		for(int test_case = 0; test_case < T; test_case++) {
 
-			Answer = 1;             // 첫 날 : 1번
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            long N = Long.parseLong(st.nextToken());
-            long M = Long.parseLong(st.nextToken());
+			int N = Integer.parseInt(br.readLine());
+			int [] ware = new int[N];
+			StringTokenizer st = new StringTokenizer(br.readLine());
+			for(int i = 0 ; i < N ; i++){
+				ware[i] = Integer.parseInt(st.nextToken());
+			}
+
+			// Answer = 0;
 			/////////////////////////////////////////////////////////////////////////////////////////////
 			/*
 			   Implement your algorithm here.
 			   The answer to the case will be stored in variable Answer.
-                물을 먹는 시점 : 아침
-                물이 배달되는 시점 : 저녁
-                배달 시점에만 계산하는 건? 타임 스킵
-                생수를 사러 가는 시점 : 아침에 물이 0개 일때
 			 */
 			/////////////////////////////////////////////////////////////////////////////////////////////
-            
-            //M번째 날이 될 때까지 생수가 남는다면
-            //안 남는다면
-            Answer += N;
-            if(N < M){
-                break;
-            }else if(N == M){
-                Answer += 1;
-            }else{
-                Answer += N/M;
-                Answer += N%M;
-            }
+			
+			// 최소 위험도 : 세 창고 중 두 바깥 두 창고와의 거리가 가장 짧은 곳
+			int minDanger = Integer.MAX_VALUE;
+			for(int i = 0 ; i < N-2 ; i++){
+				minDanger = Math.min(minDanger, (ware[i+2]-ware[i])/2);
+			}
+
+			// 최대 위험도 : 각 창고 중 가장 높은 위험도
+			int maxDanger = Integer.MIN_VALUE;
+			// 양 끝 창고 위험도 비교
+			maxDanger = Math.max(ware[2]-ware[0], ware[N-1]-ware[N-3]);
+			for(int i = 1 ; i < N-3 ; i++){
+				maxDanger = Math.max(maxDanger, ware[i+1]-ware[i]);
+			}
 
 			// Print the answer to standard output(screen).
 			System.out.println("Case #"+(test_case+1));
-			System.out.println(Answer);
+			System.out.println(maxDanger+" "+minDanger);
 		}
 	}
 }
