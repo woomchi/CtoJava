@@ -8,6 +8,17 @@ Do not use file input and output
 Please be very careful. 
 */
 
+/*
+
+N개의 자연수가 저장된 배열 A[1],A[2],...,A[N]이 주어진다. 이 배열을 서로 겹치지 않는 연속된 부분들로 나누려고 한다.
+부분의 개수는 몇 개이든 상관 없다. 각 부분의 특성값은 해당 부분의 최댓값과 최솟값의 차이이다.
+모든 부분의 특성값의 합이 최대가 되도록 배열을 적절히 나누고 그 합을 출력하는 프로그램을 작성하라. 
+
+예를 들어 설명하면 다음과 같다. N=4이고 배열 A는 {6,5,3,4}라고 하자.
+배열을 두 부분 {6,5,3}과 {4}로 나누면 두 부분의 특성값은 각각 3과 0이 된다. 이 경우가 특성값의 합이 최대가 되는 경우이다.
+
+*/
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -19,7 +30,7 @@ import java.util.StringTokenizer;
    As the name of the class should be Solution , using Solution.java as the filename is recommended.
    In any case, you can execute your program by running 'java Solution' command.
  */
-class Solution {
+class 최대최소 {
 	static int Answer;
 
 	public static void main(String args[]) throws Exception	{
